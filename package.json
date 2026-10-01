@@ -1,0 +1,22 @@
+{
+  "name": "anwaltsportal-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Narco City Anwaltsportal — Node/Express/SQLite-Backend inkl. ausgeliefertem Frontend (public/index.html).",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "multer": "^2.4.0"
+  }
+}
